@@ -1,0 +1,159 @@
+body {
+    background:linear-gradient(to bottom , rgb(0, 0, 0), rgb(195, 3, 3));
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    cursor: url('../cursor.cur'), auto;
+   }
+   .wrapper {
+    background-color: #e7dfdfc4;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+   }
+   .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+img {
+  max-width: 80%;
+  height: auto;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+}
+.logo p,
+.contacts a {
+ font-size: 22px;
+ color: #fd0101;
+ text-decoration-line: none;
+}
+.logo p,
+.contacts p {
+ margin: 0;
+}
+.logo b {
+ font-size: 44px;
+ color: #ff0000;
+ display: block;
+}
+.logo i,
+.contacts i {
+ font-size: 14px;
+ color: #5a5a5a;
+}
+.logo img {
+ margin: 0 35px;
+}
+.contacts a {
+ display: block;
+ margin-bottom: 8px;
+} 
+contacts i {
+    display: block;
+    text-align: right;
+   }
+   .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 7px 0 30px;
+   }
+   .main h1 {
+    font-size: 24px;
+    color: #ff0000;
+   }
+   .main p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+   }
+   .main-picture img {
+    width: 100%;
+    height: auto;
+   }
+    .main h2 {
+     font-size: 24px;
+     color: #ff0000;
+  }
+  .slideshow-container {
+    position: relative;
+  }
+  .slides img {
+    width: 100%;
+    height: auto;
+  }
+  .slide {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+  }
+  
+  .slideshow-container {
+    position: relative;
+  }
+  
+  .prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+   .main-text {
+    width: 100%;
+    margin-top: 20px; 
+  }
+   .menu {
+    width: 300px;
+   }
+   .menu p {
+    padding: 9px 20px;
+    background-color: #ff0000;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px; 
+}
+
+@media screen and (min-width: 768px) {
+    .menu p {
+        background-color: #000000; 
+        color: #ff0000; 
+    }
+}
+.menu ul {
+ list-style: none;
+ padding-left: 20px;
+}
+.menu li {
+ margin-bottom: 15px;
+}
+.menu a:hover {
+color: #000000;
+text-decoration: none;
+}
+.menu a {
+ list-style: none;
+ font-size: 14px;
+ text-decoration: underline;
+ text-transform: uppercase;
+ color: #000000;
+}
+.footer {
+ padding: 15px 15px;
+ font-size: 14px;
+ color: #ff0000;
+ background-color: #000000;
+ margin: -15px;
+}
+
+  
